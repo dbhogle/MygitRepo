@@ -1,2 +1,3 @@
-cd c:\test\*.* >  c:\temp\backup\*.zip
-Del *.html
+cd c:\test
+copy c:\test\*.* > c:\temp\backup\backup.zip
+del c:\test\*.html
