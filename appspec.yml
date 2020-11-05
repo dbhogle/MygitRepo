@@ -5,5 +5,5 @@ files:
     destination: c:\test
 hooks:
    BeforeInstall:
-    - location: ./before-install.bat
+    - location: \before-install.bat
       timeout: 900
