@@ -4,4 +4,6 @@ files:
   - source: ./index.html
     destination: c:\test
 hooks:
-  
+   BeforeInstall:
+    - location: ./before-install.bat
+      timeout: 900
